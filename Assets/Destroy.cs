@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour {
 
-	Renderer Item;
+	private GameObject MainCamera;
 
 
 	// Use this for initialization
 	void Start () {
-		Item = GetComponent<Renderer> ();
+		this.MainCamera = GameObject.Find ("Main Camera");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Item.isVisible) {
-		} else {
+		if (this.gameObject.transform.position.z < this.MainCamera.transform.position.z){
 			Destroy (this.gameObject);
 		}
 			

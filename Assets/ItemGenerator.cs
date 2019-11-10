@@ -39,7 +39,7 @@ public class ItemGenerator : MonoBehaviour {
 		this.Itemfac = unitychan.transform.position.z + 40f;
 		Debug.Log (this.Itemfac);
 		//Unityちゃん.zとの４０ｍの距離とアイテムを置く場所が重なったらアイテムを生成
-		if(this.Itemfac >= this.startPos && this.startPos < this.goalPos  ) {
+		if(this.Itemfac >= this.startPos && this.startPos < this.goalPos-10  ) {
 		this.startPos += 15;
 
 			

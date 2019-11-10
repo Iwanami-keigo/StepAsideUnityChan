@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 65485213099045050}
   - component: {fileID: 114058018101353244}
   - component: {fileID: 23987466821553718}
-  - component: {fileID: 114006786249836598}
+  - component: {fileID: 114055782893278798}
   m_Layer: 0
   m_Name: CoinPrefab
   m_TagString: CoinTag
@@ -305,7 +305,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.5, z: 0.7}
   m_Center: {x: 0, y: 0.3, z: 0}
---- !u!114 &114006786249836598
+--- !u!114 &114055782893278798
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
